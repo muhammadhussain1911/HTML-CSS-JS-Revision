@@ -1,0 +1,46 @@
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  background-color: rgb(223, 223, 223);
+  border-radius: 5px;
+
+}
+.addToCart {
+  background-color: #f9d84c;
+  border: none;
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.addToCart:hover {
+  background-color: #f7ce1b;
+}
+.buyNow {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.buyNow:hover {
+  background-color: rgb(250, 153, 8);
+}
+.service {
+  font-size: 24px;
+}
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 118, 0);
+  margin-block: 15px -8px;
+}

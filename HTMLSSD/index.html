@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .click {
+      width: 130px;
+      height: 50px;
+      border: 2px solid rgb(36, 85, 3);
+      border-radius: 5px;
+      background-color: white;
+      color: green;
+      font-size: large;
+      font-style: bold;
+      transition: color 0.15s, background-color 0.15s;
+    }
+    .click:hover {
+      cursor: pointer;
+      color: red;
+      background-color: green;
+    }
+    .click:active {
+      background-color: black;
+    }
+    div {
+      margin: 10px;
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      transition: transform 2s, width 2s, height 2s, background-color 2s ;
+      /* transition: background-color 2s; */
+
+      /* transition-delay: 2s; */
+    }
+    div:hover {
+      width: 200px;
+      height: 200px;
+      transform: rotate(90deg);
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <button class="click">
+    Click me
+  </button>
+  <div></div>
+</body>
+</html>

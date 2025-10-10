@@ -1,0 +1,21 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid red;
+  width: fit-content;
+  padding: 2px 5px 2px 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.search {
+  border: none;
+  outline: none;
+}
+.button {
+  color: white;
+  background-color: orange;
+}

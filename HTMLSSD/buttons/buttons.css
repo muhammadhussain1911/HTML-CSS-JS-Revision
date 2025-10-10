@@ -1,0 +1,176 @@
+div {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(248, 248, 248);
+  width: fit-content;
+  height: fit-content;
+  
+}
+.youtube {
+  background-color: red;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.youtube:hover {
+  opacity: 0.7;
+}
+.youtube:active {
+  opacity: 0.5;
+}
+.join {
+  background-color: transparent;
+  border: 2px solid blue;
+  color: blue;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.15s, background-color 0.15s, box-shadow 0.15s;
+}
+.join:hover {
+  color: white;
+  background-color: blue;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.join:active {
+  opacity: 0.7;
+}
+.twitter {
+  background-color: rgb(49, 45, 250);
+  border: none;
+  padding: 10px 30px;
+  font-size: 24px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.twitter:hover {
+  background-color: rgb(31, 27, 228);
+}
+.request {
+  background-color: black;
+  color: white;
+  width: 140px;
+  height: 50px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.request:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.Amazon {
+  background-color: #f9d84c;
+  border: none;
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+  
+}
+.Amazon:hover {
+  background-color: #eec820;
+}
+.github {
+  background-color: #56A459;
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+.bootstrap-start {
+  background-color: #6C4FA2;
+  border: none;
+  width: 140px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.bootstrap-start:hover {
+  background-color: #4a2a85;
+}
+.bootstrap-download {
+  background-color: white;
+  border: 2px solid rgb(192, 191, 191);
+  width: 140px;
+  height: 50px;
+  color: rgb(146, 144, 144);
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.bootstrap-download:hover {
+  color: white;
+  background-color: rgb(192, 191, 191);
+}
+.linkedin-apply {
+  background-color: #2A60B3;
+  border: none;
+  padding: 10px 30px;
+  font-size: 24px;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.linkedin-apply:hover {
+  background-color: #194e9e;
+}
+.linkedin-save {
+  background-color: white;
+  border: 2px solid #2A60B3;
+  color: #2A60B3;
+  font-weight: bold;  
+  font-size: 24px;
+  padding: 8px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.linkedin-save:hover {
+  background-color: #2A60B3;
+  color: white;
+
+}
+.mx-1 {
+  margin: 4px;
+}
+.m-2 {
+  margin: 8px;
+}
+.m-3 {
+  margin: 12px;
+}
+.m-4 {
+  margin: 16px;
+}
+.m-5 {
+  margin: 20px;
+}
