@@ -93,11 +93,23 @@ myName[3] = 'm';
 // const petArr = petStr.split("");
 // console.log(petArr);
 
-const sentence = "JS is a dynamic type language."
-console.log(sentence.indexOf("dynamic"));
+// const sentence = "JS is a dynamic type language."
+// console.log(sentence.indexOf("dynamic"));
 
-const sentence1 = "Some programming languages are dynamic language. JS is a dynamic type language."
-console.log(sentence1.lastIndexOf("dynamic"));
+// const sentence1 = "Some programming languages are dynamic language. JS is a dynamic type language."
+// console.log(sentence1.lastIndexOf("dynamic"));
 
-let text = "The rain in SPAIN stays mainly in the plain";
-text.match("ain");
+
+// The match() method returns an array containing the results of matching a string against a string (or a regular expression).
+
+// let text = "she sells seashells on a seashore.";
+// console.log(text.match("sh"));
+
+// let text1 = "she sells seashells on a seashore."; 
+// console.log(text1.match(/sh/));
+
+// let text2 = "she sells seashells on a seashore."; // Perform a global search for "sh"
+// console.log(text2.match(/sh/g));
+
+// let text3 = "she sells seashells on a seashore."; // Perform a global, case-insensitive search for "ain"
+// console.log(text3.match(/Sh/gi));
