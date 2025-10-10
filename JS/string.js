@@ -94,11 +94,16 @@ myName[3] = 'm';
 // console.log(petArr);
 
 // const sentence = "JS is a dynamic type language."
-// console.log(sentence.indexOf("dynamic"));
+// console.log(sentence.indexOf("dynamic")); // The indexOf() method returns the index (position) of the first occurrence of a string in a string, or it returns -1 if the string is not found. The indexOf() method cannot take powerful search values (regular expressions
 
 // const sentence1 = "Some programming languages are dynamic language. JS is a dynamic type language."
-// console.log(sentence1.lastIndexOf("dynamic"));
+// console.log(sentence1.lastIndexOf("dynamic")); // The lastIndexOf() method returns the index of the last occurrence of a specified text in a string.
 
+// let searchableStr = "Please search inside string. This is search method."
+// console.log(searchableStr.search('search')); // The search() method searches a string for a string (or a regular expression) and returns the position of the match. The search() method cannot take a second start position argument.
+
+// let searchableStr1 = "Please search inside string. This is search method."
+// console.log(searchableStr1.search(/search/));
 
 // The match() method returns an array containing the results of matching a string against a string (or a regular expression).
 
@@ -124,8 +129,16 @@ myName[3] = 'm';
 // const iterator1 = essayOnCow1.matchAll(/Cow/g); // If the parameter is a regular expression, the global flag (g) must be set, otherwise a TypeError is thrown.
 // console.log(Array.from(iterator1));
 
-const essayOnCow2 = "Cow is a pet. Cow has four legs. Cow gives milk.";
-const iterator2 = essayOnCow2.matchAll(/COW/gi); // matchAll() does not work in Internet Explorer.
+// const essayOnCow2 = "Cow is a pet. Cow has four legs. Cow gives milk.";
+// const iterator2 = essayOnCow2.matchAll(/COW/gi); // matchAll() does not work in Internet Explorer.
+// console.log(Array.from(iterator2));
 
-console.log(Array.from(iterator2));
+// let location = "Please locate where 'locate' occurs!";
+// let locationIndex = location.indexOf("locate");
+// console.log(locationIndex);
+
+// let location1 = "Please locate where 'locate' occurs!";
+// let locationIndex1 = location1.lastIndexOf("locate");
+// console.log(locationIndex1);
+
 
