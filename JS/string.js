@@ -113,3 +113,19 @@ myName[3] = 'm';
 
 // let text3 = "she sells seashells on a seashore."; // Perform a global, case-insensitive search for "ain"
 // console.log(text3.match(/Sh/gi));
+
+
+// const essayOnCow = "Cow is a pet. Cow has four legs. Cow gives milk." // The matchAll() method returns an iterator containing the results of matching a string against a string (or a regular expression).
+// const iterator = essayOnCow.matchAll("Cow");
+// console.log(Array.from(iterator));
+
+
+// const essayOnCow1 = "Cow is a pet. Cow has four legs. Cow gives milk."
+// const iterator1 = essayOnCow1.matchAll(/Cow/g); // If the parameter is a regular expression, the global flag (g) must be set, otherwise a TypeError is thrown.
+// console.log(Array.from(iterator1));
+
+const essayOnCow2 = "Cow is a pet. Cow has four legs. Cow gives milk.";
+const iterator2 = essayOnCow2.matchAll(/COW/gi); // matchAll() does not work in Internet Explorer.
+
+console.log(Array.from(iterator2));
+
