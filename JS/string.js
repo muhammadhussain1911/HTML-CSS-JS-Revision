@@ -142,3 +142,21 @@ myName[3] = 'm';
 // console.log(locationIndex1);
 
 
+// const includeStr = "My name is Muhammad Hussain."
+// console.log(includeStr.includes('name')); // The includes() method returns true if a string contains a specified value. includes() is case sensitive.
+
+// const includeStr1 = "My name is Muhammad Hussain."
+// console.log(includeStr1.includes('name', 8)); // Check if a string includes "world". Start at position 8
+
+// const startStr = "My name is Muhammad Hussain."
+// console.log(startStr.startsWith("My")); // The startsWith() method returns true if a string begins with a specified value.
+
+// const startStr1 = "My name is Muhammad Hussain." 
+// console.log(startStr1.startsWith('My', 8)); // A start position for the search can be specified.
+
+const endStr = "My name is Muhammad Hussain." 
+console.log(endStr.endsWith('Hussain.')); // A start position for the search can be specified.
+
+const endStr1 = "My name is Muhammad Hussain." 
+console.log(endStr1.endsWith('Hussain.', 8)); // A start position for the search can be specified.
+
