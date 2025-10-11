@@ -154,9 +154,24 @@ myName[3] = 'm';
 // const startStr1 = "My name is Muhammad Hussain." 
 // console.log(startStr1.startsWith('My', 8)); // A start position for the search can be specified.
 
-const endStr = "My name is Muhammad Hussain." 
-console.log(endStr.endsWith('Hussain.')); // A start position for the search can be specified.
+// const endStr = "My name is Muhammad Hussain." 
+// console.log(endStr.endsWith('Hussain.')); // A start position for the search can be specified.
 
-const endStr1 = "My name is Muhammad Hussain." 
-console.log(endStr1.endsWith('Hussain.', 8)); // A start position for the search can be specified.
+// const endStr1 = "My name is Muhammad Hussain." 
+// console.log(endStr1.endsWith('Hussain.', 8)); // A start position for the search can be specified.
 
+const str1 = "ABC";
+const str2 = "GHI";
+console.log(str1.localeCompare(str2)); // The localeCompare() method compares two strings in the current locale. The localeCompare() method returns sort order -1, 1, or 0 (for before, after, or equal). The current locale is based on the language settings of the browser.
+
+const str3 = "ABC";
+const str4 = "GHI";
+console.log(str3.localeCompare(str4)); // -1 if the string is sorted before the compareString.
+
+const str5 = "ABC";
+const str6 = "ABC";
+console.log(str5.localeCompare(str6)); // 0 if the two strings are equal.
+
+const str7 = "XYZ";
+const str8 = "GHI";
+console.log(str7.localeCompare(str8)); // 1 if the string is sorted after the compareString.
