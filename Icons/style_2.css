@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<assembly xmlns="urn:schemas-microsoft-com:asm.v3" manifestVersion="1.0" description="$(resourceString.description)" displayName="$(resourceString.displayName)" copyright="Copyright (c) Microsoft Corporation. All Rights Reserved." company="Microsoft" creationTimeStamp="2023-10-20T03:54:23" lastUpdateTimeStamp="2023-10-20T03:54:23" buildFilter="">
-  <assemblyIdentity name="Microsoft-Windows-Embedded-AssignedAccessCsp-Deployment-LanguagePack" version="10.0.19041.3636" processorArchitecture="amd64" language="pt-BR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
-  <dependency discoverable="yes">
-    <dependentAssembly dependencyType="install">
-      <assemblyIdentity name="Microsoft-Windows-AssignedAccess-Diagnostics.Resources" version="10.0.19041.1" processorArchitecture="amd64" language="pt-BR" buildType="release" publicKeyToken="31bf3856ad364e35" versionScope="nonSxS" />
-    </dependentAssembly>
-  </dependency>
-  <dependency d

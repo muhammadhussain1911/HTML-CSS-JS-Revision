@@ -1,1 +1,67 @@
-tn|CBool|CByte|CCur|CDate|CDbl|Chr|CInt|CLng|Conversions|Cos|CreateObject|CSng|CStr|Date|DateAdd|DateDiff|DatePart|DateSerial|DateValue|Day|Derived|Math|Escape|Eval|Exists|Exp|Filter|FormatCurrency|FormatDateTime|FormatNumber|FormatPercent|GetLocale|GetObject|GetRef|Hex|Hour|InputBox|InStr|InStrRev|Int|Fix|IsArray|IsDate|IsEmpty|IsNull|IsNumeric|IsObject|Item|Items|Join|Keys|LBound|LCase|Left|Len|LoadPicture|Log|LTrim|RTrim|Trim|Maths|Mid|Minute|Month|MonthName|MsgBox|Now|Oct|Remove|RemoveAll|Replace|RGB|Right|Rnd|Round|ScriptEngine|ScriptEngineBuildVersion|ScriptEngineMajorVersion|ScriptEngineMinorVersion|Second|SetLocale|Sgn|Sin|Space|Split|Sqr|StrComp|String|StrReverse|Tan|Time|Timer|TimeSerial|TimeValue|TypeName|UBound|UCase|Unescape|VarType|Weekday|WeekdayName|Year)\\b)","name":"support.function.vb.asp"},{"match":"-?\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f)?\\b","name":"constant.numeric.asp"},{"match":"(?i:\\b(vbtrue|vbfalse|vbcr|vbcrlf|vbfo
+.screen{
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.card {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    
+}
+
+.line {
+    height: 2px;
+    background-color: blue;
+}
+
+.position {
+    text-align: end;
+}
+
+.detail {
+    padding: 15px;
+    background-color:red;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 20px 20px 0px;
+    justify-content: center;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0px 4px 0px;
+}
+
+.phone {
+    rotate: 90deg;
+}
+
+p {
+    color: white;
+}
+
+span {
+    background-color: white;
+    border-radius: 4px;
+    padding: 1px;
+}
+
+.name {
+    padding-block:50px;
+    padding-inline: 10px;
+    background-color: gray;
+    border-radius: 20px 0px 0px 20px;
+}
