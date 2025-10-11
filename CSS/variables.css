@@ -1,9 +1,10 @@
-:root {
+:root { /* global-scope */
   --primary-color: black;
-  --secondary-color: white;
+  --secondary-color: white; 
   --default-padding: 0px;
   --default-margin: 0px;
   --button-bg: green;
+  --logo-border: rgb(255, 0, 0);
 }
 * {
   margin: var(--default-margin);
@@ -20,7 +21,13 @@
   align-items: center;
   padding: 12px;
   box-sizing: border-box;
- }
+}
+
+.logo {
+  border: 2px solid var(--logo-border);
+  border-radius: 3px;
+  padding-inline: 5px;
+}
 
 ul {
   display: flex;
@@ -32,5 +39,11 @@ ul li {
   background-color: var(--button-bg);
   padding: 2px;
   border-radius: 2px;
+  cursor: pointer;
+}
+
+.signIn {
+  --secondary-color: blue; /* block-scope */
+  color: var(--secondary-color);
   cursor: pointer;
 }
