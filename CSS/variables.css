@@ -1,0 +1,36 @@
+:root {
+  --primary-color: black;
+  --secondary-color: white;
+  --default-padding: 0px;
+  --default-margin: 0px;
+  --button-bg: green;
+}
+* {
+  margin: var(--default-margin);
+  padding: var(--default-padding);
+}
+
+.nav-bar {
+  width: 100vw;
+  height: 3rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  box-sizing: border-box;
+ }
+
+ul {
+  display: flex;
+  gap: 8px;
+}
+
+ul li {
+  list-style: none;
+  background-color: var(--button-bg);
+  padding: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+}
