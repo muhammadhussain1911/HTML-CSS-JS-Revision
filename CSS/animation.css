@@ -1,0 +1,49 @@
+/* :root {
+
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100vw;
+  border: 3px solid red;
+  height: 100vh;
+}
+.container1 {
+  width: 348px;
+  height: 348px;
+}
+
+.child1 {
+  width: 3rem;
+  height: 3rem;
+  background-color: blue;
+  margin: 5px;
+  position: relative;
+  animation-name: child1-animate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  
+}
+
+@keyframes child1-animate {
+  0% { background-color: blue; color: black; top: 0px; left: 0px; }
+  25% { background-color: brown; color: white; top: 0px; left: 300px; }
+  50% { background-color: aqua; color:coral; top: 300px; left: 300px; }
+  75% { background-color: blueviolet; color: chartreuse; top: 300px; left: 0px; }
+  100% { background-color: crimson; color: chocolate; top: 0px; left: 0px; }
+}
+
+.child2 {
+  width: 3rem;
+  height: 3rem;
+  background-color: aqua;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+}
+
