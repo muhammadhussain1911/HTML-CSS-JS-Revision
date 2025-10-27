@@ -1,0 +1,33 @@
+.parent {
+  width: 40vw;
+  border: 2px solid black;
+  padding: 10px;
+  /* position: relative; */
+}
+
+
+.child {
+  border: 2px solid red;
+  height: 10vh;
+}
+.child1{
+  background-color: cyan;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  z-index: 1;
+}
+.child2{
+  background-color: purple;
+  position: relative;
+  z-index: 1;
+}
+.child3{
+  background-color: blue;
+}
+.child4{
+  background-color: green;
+  position: sticky;
+  top: 100px;
+  width: 20%;
+}
