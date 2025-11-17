@@ -1,0 +1,31 @@
+.parent {
+  width: 600px;
+  height: 600px;
+  border: 20px dashed red;
+  padding: 20px;
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+  /* background-color: yellow; */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgpcEukLnRzhL1KapO-x0lXNBPKzD3Lbh9tA&s");
+  background-position:20% 30% ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: text;
+  color: transparent;
+
+  /* background-repeat: repeat-x; */
+  background-attachment: scroll;
+  /* background-position: center bottom; */
+  /* background-position:20px 300px ; */
+  
+
+}
+.parent1 {
+  width: 600px;
+  height: 600px;
+  padding: 20px;
+  border: 20px dashed red;
+  background: green url('./animated\ circle.png') 20px 100px / 100% no-repeat content-box scroll ;
+}
