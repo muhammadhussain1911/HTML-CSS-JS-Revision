@@ -1,0 +1,15 @@
+h2 {
+  color: blue;
+  font-size: xx-large;
+}
+h1 {
+  background-color: blue !important;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  padding: 10px;
+  border: 2px solid red;
+}
