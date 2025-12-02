@@ -1,0 +1,53 @@
+.parent {
+  background-color: aqua;
+  height: 200px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 10px; */
+  /* column-gap: 10px; */
+  gap: 10px;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+.child {
+  background-color: coral;
+  height: fit-content;
+  width: fit-content;
+}
+
+.child3 {
+  align-self: flex-end;
+}
+
+.child2 {
+  align-self: center;
+}
+
+.parent1 {
+  background-color: blue;
+  color: white;
+  display: flex;
+  gap: 10px;
+
+}
+.childs {
+  background-color: brown;
+  color: white;
+  width: 200px;
+  flex-shrink: 1;
+  flex-grow: 1;
+
+
+}
+
+.child5 {
+  order: 1
+}
+.child8 {
+  order: -2
+}
+.child7 {
+  order: -1
+}
