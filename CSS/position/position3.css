@@ -1,0 +1,40 @@
+/* .parent {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  left: 100px;
+  top: 50px;
+} */
+ /* * {
+  margin: 0;
+  padding: 0;
+ } */
+.parent1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.child {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  /* left: 20px;
+  top: 20px; */
+  top: 20px;
+}
+.child2 {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+.child3 {
+  position: sticky;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  top: 10px;
+}
