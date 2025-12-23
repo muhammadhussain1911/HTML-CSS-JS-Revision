@@ -1,0 +1,62 @@
+.main {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  animation-name: moving;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moving {
+  from {
+    background-color: aqua;
+  } to {
+    background-color: yellow;
+  }
+}
+
+.main2 {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to bottom, red,blue, green, yellow);
+  position: relative;
+  animation-name: moving1;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  
+}
+
+/* .main2:hover {
+  animation-name: moving1;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+} */
+
+@keyframes moving1 {
+  0% {
+    transform: rotate(0deg);
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    background-color: yellow;
+    transform: rotate(180deg);
+    width: 200px;
+    height: 200px;
+    left: 600px;
+    top: 0px;
+  }
+  100% {
+    background-color: aqua;
+    transform: rotate(360deg);
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+span {
+  background-color: red;
+  color: white;
+}
