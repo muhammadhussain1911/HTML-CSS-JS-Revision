@@ -56,7 +56,28 @@
   }
 }
 
-span {
+/* span {
   background-color: red;
   color: white;
+} */
+
+input {
+  border: none;
+  height: 30px;
+}
+input:focus {
+  outline: none;
+}
+.searchbar {
+  border: 2px solid grey;
+  width: fit-content;
+  padding-inline: 10px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+
+}
+
+.searchIcon {
+  cursor: pointer;
 }
