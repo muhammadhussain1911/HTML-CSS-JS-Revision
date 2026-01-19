@@ -1,0 +1,25 @@
+div {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.gradient1 {
+  background: linear-gradient(to bottom ,green, pink); /* by default */
+}
+.gradient2 {
+  background: linear-gradient(to top ,yellow, orange);
+}
+.gradient3 {
+  background: linear-gradient(to bottom right ,purple, red );
+}
+.gradient4 {
+  background: linear-gradient(to top left ,aqua, blue);
+}
+.gradient5 {
+  background: linear-gradient(to top ,#57c44d, #dab87e);
+}
+.gradient6 {
+  background: linear-gradient(45deg ,grey, aqua);
+}

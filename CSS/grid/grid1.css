@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  width: 100vw;
+  height: 800px;
+  background-color: violet;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-template-rows: 200px 200px 200px;
+  gap: 10px 20px;
+
+}
+
+.child {
+  color: red;
+  font-size: 24px;
+  border: 2px solid red;
+  background-color: aqua;
+
+}

@@ -15,13 +15,15 @@
 .container1 {
   width: 348px;
   height: 348px;
+  border: 1px solid red;
 }
 
 .child1 {
   width: 3rem;
   height: 3rem;
   background-color: blue;
-  margin: 5px;
+  /* margin: 5px; */
+  
   position: relative;
   animation-name: child1-animate;
   animation-duration: 5s;
@@ -46,7 +48,7 @@
   position: relative;
   animation-name: child2-animate;
   animation-duration: 2s;
-  animation-iteration-count: 1;
+  animation-iteration-count: 4;
   animation-fill-mode: forwards;
   
 }

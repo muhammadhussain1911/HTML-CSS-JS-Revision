@@ -1,18 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.screen {
+  /* width: 90vw; */
+  /* height: 50vh; */
+}
+
 .keyboard {
   display: grid;
-  grid-template-columns: repeat(40, 20px);
-  grid-template-rows: repeat(13, 30px);
-  column-gap: 2px;
+  grid-template-columns: repeat(896, 1fr);
+  grid-template-rows: repeat(1, 30px);
 }
 
-.tab {
+.key {
+  grid-column: span 40;
+}
+.number {
+  grid-column: span 44;
+}
+.backspace {
+  grid-column: span 72;
+}
+
+/* .tab {
   grid-column-start: 1;
   grid-column-end: 3;
-}
+} */
 
-butoon {
-  -ms-grid-column-span: ;
-}
+
 
 
 /* https://www.youtube.com/watch?v=7AgEjgUtho4&t=48s&pp=ygUbZ3JpZCBpbiBjc3MgY29kZSB3aXRoIGhhcnJ5 */

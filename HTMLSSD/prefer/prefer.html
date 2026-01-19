@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+  <title>CSS Order</title>
+   <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+     #main {
+      color: green;
+    }
+    .head {
+      color: red; 
+    }
+    h1 {
+      color: aqua !important;
+    }
+    input[type="password"] {
+      border: 2px solid red;
+      color: red;
+    }
+    div>p.first {
+      color: blue
+    }
+    label[for="text"] {
+      color: blue;
+    }
+    .screen {
+      width: 100vw;
+      box-sizing: border-box;
+      background-color: aqua;
+    }
+  </style> 
+</head>
+<body>
+   <h1 class="head" id="main" style="color: orange;">
+    I am red
+  </h1>
+  <label for="text">Name</label>
+  <input type="text" id="text">
+  <label for="pass" id="">Password</label>
+  <input type="password" name="" id="pass">
+  <div>
+    <h3>Muhammad Hussain</h3>
+    <p class="first">I am a Web App Developer</p>
+    <p>I am a Web App Developer</p>
+  </div>
+  <p>Don't style me.</p>
+  <div class="screen">Name</div>
+
+  <div style="background-color: red; width: 100vmax; box-sizing: border-box;">
+    Muhammad Hussain
+  </div>
+  <pre>
+    Copy the following code and paste in your HTML Document.
+    <code class="language-html">
+      &lthead>
+        &ltstyle&gt
+          * {
+            margin: 0px;
+            padding: 0px;
+            }
+            #main {
+              color: green;
+            }
+            .head {
+              color: red; 
+            }
+            h1 {
+              color: aqua !important;
+            }
+            input[type="password"] {
+              border: 2px solid red;
+              color: red;
+            }
+            div&gtp.first {
+              color: blue
+            }
+            label[for="text"] {
+              color: blue;
+            }
+            .screen {
+              width: 100vw;
+              box-sizing: border-box;
+              background-color: aqua;
+            }
+        &lt/style&gt
+      &lt/head&gt
+      &ltbody&gt
+        &lth1 class="head" id="main" style="color: orange;"&gt
+          I am red
+        &lt/h1&gt
+        &ltlabel for="text"&gtName&lt/label&gt
+        &ltinput type="text" id="text"&gt
+        &ltlabel for="pass" id=""&gtPassword&lt/label&gt
+        &ltinput type="password" name="" id="pass"&gt
+        &ltdiv&gt
+          &lth3&gtMuhammad Hussain&lt/h3&gt
+          &ltp class="first"&gtI am a Web App Developer&lt/p&gt
+          &ltp&gtI am a Web App Developer&lt/p&gt
+        &lt/div&gt
+        &ltp&gtDon't style me.&lt/p&gt
+        &ltdiv class="screen"&gtName&lt/div&gt
+
+        &ltdiv style="background-color: red; width: 100vmax; box-sizing: border-box;"&gt
+          Muhammad Hussain
+        &lt/div&gt
+          
+        &lt/body&gt
+      </code>
+  </pre>
+</body>
+</html>

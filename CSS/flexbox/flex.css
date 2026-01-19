@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.parent {
+  width: 100vw;
+  height: 15vh;
+  box-sizing: border-box;
+  border: 2px solid black;
+  display: flex;
+  gap: 10px;
+  
+
+}
+
+.child {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.child1 {
+  flex-grow: 1;
+}
+.child2 {
+  flex-grow: 2;
+}
+.child3 {
+  flex-grow: 3;
+}
+.child4 {
+  flex-grow: 4;
+}
+.child5 {
+  flex-grow: 5;
+}
